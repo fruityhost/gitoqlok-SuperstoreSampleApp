@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "4b3dae70-af62-4429-8d62-35c64648b3d8",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "H",
+    "qFieldDefs": [
+      "Region",
+      "Province"
+    ],
+    "qFieldLabels": [],
+    "title": "Region-Province (1)",
+    "coloring": {
+      "changeHash": "0.07645873771268219",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Region-Province (1)",
+    "description": "Drill-down domension",
+    "tags": []
+  }
+}

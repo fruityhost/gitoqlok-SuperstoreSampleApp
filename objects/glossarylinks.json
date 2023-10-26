@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ad03ab89-fd99-4d55-8429-8a2c38d751e8",
+    "type": "related",
+    "resourceSpaceId": "",
+    "resourceId": "1c0a43b5-6032-4542-a009-527fbd7d34fb",
+    "resourceType": "app",
+    "name": "Superstore Sample App",
+    "description": "This app is built on sample superstore data.",
+    "glossaryId": "e54eaa1d-c8f7-43dd-b53a-9927bb156683",
+    "glossaryName": "Test Glossary",
+    "termId": "c92bdb5c-c5f3-4e86-b347-f582a3febdda",
+    "termName": "Actual Amount",
+    "termDescription": "Actual Amout",
+    "openUrl": "",
+    "createdBy": "6304725bf86f3058e5b26838",
+    "createdAt": "2023-08-28T11:20:58Z",
+    "term": {
+      "id": "c92bdb5c-c5f3-4e86-b347-f582a3febdda",
+      "glossaryId": "e54eaa1d-c8f7-43dd-b53a-9927bb156683",
+      "revision": 2,
+      "name": "Actual Amount",
+      "description": "Actual Amout",
+      "relatedInformation": "",
+      "abbreviation": "Act.Amount",
+      "tags": [],
+      "stewards": [
+        "6304725bf86f3058e5b26838"
+      ],
+      "createdBy": "6304725bf86f3058e5b26838",
+      "createdAt": "2023-08-28T11:19:45Z",
+      "updatedBy": "6304725bf86f3058e5b26838",
+      "updatedAt": "2023-09-04T08:54:50Z",
+      "status": {
+        "type": "draft",
+        "updatedBy": "6304725bf86f3058e5b26838",
+        "updatedAt": "2023-08-28T11:19:45Z"
+      }
+    }
+  }
+]

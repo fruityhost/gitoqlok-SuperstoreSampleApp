@@ -1,0 +1,31 @@
+///$tab Clients & Sales
+LOAD
+    Customer,
+    "Customer Number",
+    "City Code"
+FROM [lib://DataFiles/Customers.xlsx]
+(ooxml, embedded labels, table is Customer);
+
+LOAD
+    КодКлиента,
+    Клиент,
+    КодСтраны,
+    Страна,
+    Город,
+    Индекс
+FROM [lib://DataFiles/Clients.xlsx]
+(ooxml, embedded labels, table is Клиенты);
+
+LOAD
+    КодЗаказа,
+    ДатаЗаказа,
+    КодТовара,
+    КодКлиента,
+    Количество,
+    Продажи,
+    Себестоимость,
+    Скидка,
+    Маржа,
+    ТранспортныеРасходы
+FROM [lib://DataFiles/Sales.xlsx]
+(ooxml, embedded labels, table is Продажи);

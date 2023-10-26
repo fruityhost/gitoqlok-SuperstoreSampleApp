@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "wXPQuF",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=[Product Name]"
+    ],
+    "qFieldLabels": [
+      "Product Name"
+    ],
+    "title": "Product Name",
+    "coloring": {
+      "changeHash": "0.8747348640799866",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Product Name",
+    "description": "",
+    "tags": []
+  }
+}

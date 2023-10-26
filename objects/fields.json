@@ -1,0 +1,455 @@
+[
+  {
+    "qName": "City Code",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer"
+    ]
+  },
+  {
+    "qName": "Customer",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer"
+    ]
+  },
+  {
+    "qName": "Customer Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Customer Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer"
+    ]
+  },
+  {
+    "qName": "Customer Segment",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Discount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Manager",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Users$"
+    ]
+  },
+  {
+    "qName": "Order Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Order ID",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Orders$",
+      "Returns$"
+    ]
+  },
+  {
+    "qName": "Order Priority",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Order Quantity",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Product Base Margin",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Product Category",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Product Container",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Product Name",
+    "qTags": [],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Product Sub-Category",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Profit",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Province",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Region",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Orders$",
+      "Users$"
+    ]
+  },
+  {
+    "qName": "Row ID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Sales",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Sales Target",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Ship Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Ship Mode",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Shipping Cost",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Returns$"
+    ]
+  },
+  {
+    "qName": "Unit Price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Orders$"
+    ]
+  },
+  {
+    "qName": "Город",
+    "qTags": [
+      "$text",
+      "$geoname",
+      "$relates_Клиенты.Город_GeoInfo"
+    ],
+    "qSrcTables": [
+      "Клиенты"
+    ]
+  },
+  {
+    "qName": "ДатаЗаказа",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Индекс",
+    "qTags": [],
+    "qSrcTables": [
+      "Клиенты"
+    ]
+  },
+  {
+    "qName": "Клиент",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Клиенты"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "Клиенты.Город_GeoInfo",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$geopoint",
+      "$hidden",
+      "$relates_Город"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "Клиенты.КодСтраны_GeoInfo",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$geopolygon",
+      "$relates_КодСтраны"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "Клиенты.Страна_GeoInfo",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$geopolygon",
+      "$relates_Страна"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "КодЗаказа",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "КодКлиента",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Продажи",
+      "Клиенты"
+    ]
+  },
+  {
+    "qName": "КодСтраны",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$geoname",
+      "$relates_Клиенты.КодСтраны_GeoInfo"
+    ],
+    "qSrcTables": [
+      "Клиенты"
+    ]
+  },
+  {
+    "qName": "КодТовара",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Количество",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Маржа",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Продажи",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Себестоимость",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Скидка",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  },
+  {
+    "qName": "Страна",
+    "qTags": [
+      "$text",
+      "$geoname",
+      "$relates_Клиенты.Страна_GeoInfo"
+    ],
+    "qSrcTables": [
+      "Клиенты"
+    ]
+  },
+  {
+    "qName": "ТранспортныеРасходы",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Продажи"
+    ]
+  }
+]

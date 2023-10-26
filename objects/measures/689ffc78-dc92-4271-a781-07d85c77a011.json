@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "689ffc78-dc92-4271-a781-07d85c77a011",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sum(Discount) (1)",
+    "qDef": "SUM(Discount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Sum(Discount) (1)",
+    "description": "sum of all discounts",
+    "tags": []
+  }
+}

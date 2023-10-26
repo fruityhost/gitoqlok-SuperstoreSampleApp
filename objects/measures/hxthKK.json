@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "hxthKK",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sum(Discount)",
+    "qDef": "SUM(Discount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Sum(Discount)",
+    "description": "sum of all discounts",
+    "tags": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "qTitle": "Superstore Sample App",
+  "qThumbnail": {
+    "qUrl": "/api/v1/apps/1c0a43b5-6032-4542-a009-527fbd7d34fb/media/files/Screen Shot 2023-07-09 at 12.24.26.png"
+  },
+  "qUsage": "ANALYTICS",
+  "description": "This app is built on sample superstore data.",
+  "dynamicColor": "hsla(30,18%,43%,1)",
+  "encrypted": true,
+  "id": "1c0a43b5-6032-4542-a009-527fbd7d34fb",
+  "published": false,
+  "owner": "auth0|eab1593a0c6ddda3fa9f478dac9966bd5c8c5109390f7c3cdbaab6d8ca318df5",
+  "ownerId": "6304725bf86f3058e5b26838",
+  "_resourcetype": "app"
+}
