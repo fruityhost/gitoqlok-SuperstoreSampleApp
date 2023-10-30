@@ -20,4 +20,3 @@ undefined|This sheet provides an insight into sales performance by providing a c
 
 Branch Name|Qlik application
 ---|---
-main|[https://4q2az9y0rhp2o8s.eu.qlikcloud.com/sense/app/1c0a43b5-6032-4542-a009-527fbd7d34fb](https://4q2az9y0rhp2o8s.eu.qlikcloud.com/sense/app/1c0a43b5-6032-4542-a009-527fbd7d34fb)
